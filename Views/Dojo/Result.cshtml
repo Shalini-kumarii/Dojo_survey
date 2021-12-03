@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Hello!</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+
+<body>
+
+    <form action="back" method="post">
+        <div class="info">
+            <p>Your Name : @ViewBag.Name
+            <p>
+            <p>Dojo Location : @ViewBag.Location</p>
+            <p>Favourite Language : @ViewBag.Language</p>
+            <p>Comments : @ViewBag.Comments</p><br>
+            <button type="submit">Back</button>
+        </div>
+    </form>
+</body>
+
+</html>

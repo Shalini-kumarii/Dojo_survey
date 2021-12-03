@@ -1,0 +1,11 @@
+
+.info{
+    position  : absolute; 
+    background-color:azure;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+button {
+  background-color:cornflowerblue;
+  margin-left: 50px;
+}
